@@ -1,0 +1,62 @@
+# 虚拟环境
+.venv
+venv
+ENV
+env
+
+# 编译的Python文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 数据文件（保留空目录结构，但忽略具体数据）
+data/*.json
+data/*.tmp
+!data/.gitkeep
+
+# 日志文件
+*.log
+logs/
+
+# 编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统相关文件
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 测试覆盖报告
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# 打包文件
+*.egg-info/
+build/
+dist/
+wheelhouse/
+
+# 其他
+*.pem
+.cache/
+.mypy_cache/
+.pyre/
+.pylint.d/
+
+# 临时文件
+*.tmp
+*.temp
+.tmp/
+.temp/
